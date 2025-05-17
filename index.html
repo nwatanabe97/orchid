@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2575.4">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="Apple-converted-space"> </span>(cd "$(git rev-parse --show-toplevel)" &amp;&amp; git apply --3way &lt;&lt;'EOF'<span class="Apple-converted-space"> </span></p>
+<p class="p1">diff --git a//dev/null b/orchid-shop.html</p>
+<p class="p1">index 0000000..f297174 100644</p>
+<p class="p1">--- a//dev/null</p>
+<p class="p1">+++ b/orchid-shop.html</p>
+<p class="p1">@@ -0,0 +1,121 @@</p>
+<p class="p1">+&lt;!DOCTYPE html&gt;</p>
+<p class="p1">+&lt;html lang="ja"&gt;</p>
+<p class="p1">+&lt;head&gt;</p>
+<p class="p1">+<span class="Apple-converted-space">  </span>&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1">+<span class="Apple-converted-space">  </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
+<p class="p1">+<span class="Apple-converted-space">  </span>&lt;title&gt;胡蝶蘭オンラインショップ&lt;/title&gt;</p>
+<p class="p1">+<span class="Apple-converted-space">  </span>&lt;style&gt;</p>
+<p class="p1">+<span class="Apple-converted-space">    </span>body {</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>font-family: Arial, sans-serif;</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>margin: 0;</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>padding: 0;</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>background-color: #f7f7f7;</p>
+<p class="p1">+<span class="Apple-converted-space">    </span>}</p>
+<p class="p1">+<span class="Apple-converted-space">    </span>header {</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>background-color: #e1d5e7;</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>color: #333;</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>padding: 20px;</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>text-align: center;</p>
+<p class="p1">+<span class="Apple-converted-space">    </span>}</p>
+<p class="p1">+<span class="Apple-converted-space">    </span>nav {</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>margin-top: 10px;</p>
+<p class="p1">+<span class="Apple-converted-space">    </span>}</p>
+<p class="p1">+<span class="Apple-converted-space">    </span>nav a {</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>margin: 0 10px;</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>color: #333;</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>text-decoration: none;</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>font-weight: bold;</p>
+<p class="p1">+<span class="Apple-converted-space">    </span>}</p>
+<p class="p1">+<span class="Apple-converted-space">    </span>.hero {</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>background-image: url('https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&amp;fit=crop&amp;w=1200&amp;q=80');</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>background-size: cover;</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>background-position: center;</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>height: 300px;</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>display: flex;</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>align-items: center;</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>justify-content: center;</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>color: white;</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>font-size: 2em;</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>font-weight: bold;</p>
+<p class="p1">+<span class="Apple-converted-space">    </span>}</p>
+<p class="p1">+<span class="Apple-converted-space">    </span>.products {</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>display: flex;</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>flex-wrap: wrap;</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>justify-content: center;</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>padding: 20px;</p>
+<p class="p1">+<span class="Apple-converted-space">    </span>}</p>
+<p class="p1">+<span class="Apple-converted-space">    </span>.product {</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>background-color: white;</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>border-radius: 8px;</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>margin: 10px;</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>padding: 15px;</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>box-shadow: 0 2px 4px rgba(0,0,0,0.1);</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>width: 250px;</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>text-align: center;</p>
+<p class="p1">+<span class="Apple-converted-space">    </span>}</p>
+<p class="p1">+<span class="Apple-converted-space">    </span>.product img {</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>width: 100%;</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>height: 200px;</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>object-fit: cover;</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>border-radius: 4px;</p>
+<p class="p1">+<span class="Apple-converted-space">    </span>}</p>
+<p class="p1">+<span class="Apple-converted-space">    </span>.product h3 {</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>margin: 10px 0;</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>font-size: 1.2em;</p>
+<p class="p1">+<span class="Apple-converted-space">    </span>}</p>
+<p class="p1">+<span class="Apple-converted-space">    </span>.product p {</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>font-size: 0.9em;</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>color: #555;</p>
+<p class="p1">+<span class="Apple-converted-space">    </span>}</p>
+<p class="p1">+<span class="Apple-converted-space">    </span>.price {</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>font-size: 1.1em;</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>font-weight: bold;</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>color: #b85fc6;</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>margin-top: 5px;</p>
+<p class="p1">+<span class="Apple-converted-space">    </span>}</p>
+<p class="p1">+<span class="Apple-converted-space">    </span>footer {</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>text-align: center;</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>padding: 20px;</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>background-color: #e1d5e7;</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>color: #333;</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>margin-top: 40px;</p>
+<p class="p1">+<span class="Apple-converted-space">    </span>}</p>
+<p class="p1">+<span class="Apple-converted-space">  </span>&lt;/style&gt;</p>
+<p class="p1">+&lt;/head&gt;</p>
+<p class="p1">+&lt;body&gt;</p>
+<p class="p1">+<span class="Apple-converted-space">  </span>&lt;header&gt;</p>
+<p class="p1">+<span class="Apple-converted-space">    </span>&lt;h1&gt;胡蝶蘭オンラインショップ&lt;/h1&gt;</p>
+<p class="p1">+<span class="Apple-converted-space">    </span>&lt;nav&gt;</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>&lt;a href="#"&gt;ホーム&lt;/a&gt;</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>&lt;a href="#products"&gt;商品一覧&lt;/a&gt;</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>&lt;a href="#contact"&gt;お問い合わせ&lt;/a&gt;</p>
+<p class="p1">+<span class="Apple-converted-space">    </span>&lt;/nav&gt;</p>
+<p class="p1">+<span class="Apple-converted-space">  </span>&lt;/header&gt;</p>
+<p class="p1">+<span class="Apple-converted-space">  </span>&lt;div class="hero"&gt;</p>
+<p class="p1">+<span class="Apple-converted-space">    </span>美しい胡蝶蘭をお届けします</p>
+<p class="p1">+<span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p1">+<span class="Apple-converted-space">  </span>&lt;section id="products" class="products"&gt;</p>
+<p class="p1">+<span class="Apple-converted-space">    </span>&lt;div class="product"&gt;</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>&lt;img src="https://images.unsplash.com/photo-1603808033192-8dd57f668427?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="胡蝶蘭"&gt;</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>&lt;h3&gt;ピンク胡蝶蘭 3本立&lt;/h3&gt;</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>&lt;p&gt;華やかなピンクの胡蝶蘭。贈り物にも最適です。&lt;/p&gt;</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>&lt;div class="price"&gt;¥10,000&lt;/div&gt;</p>
+<p class="p1">+<span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1">+<span class="Apple-converted-space">    </span>&lt;div class="product"&gt;</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>&lt;img src="https://images.unsplash.com/photo-1524592203361-50aa3b4958d8?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="胡蝶蘭"&gt;</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>&lt;h3&gt;ホワイト胡蝶蘭 5本立&lt;/h3&gt;</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>&lt;p&gt;エレガントな白い胡蝶蘭。オフィスや店舗に。&lt;/p&gt;</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>&lt;div class="price"&gt;¥15,000&lt;/div&gt;</p>
+<p class="p1">+<span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1">+<span class="Apple-converted-space">    </span>&lt;div class="product"&gt;</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>&lt;img src="https://images.unsplash.com/photo-1606940748735-46505182335e?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="胡蝶蘭"&gt;</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>&lt;h3&gt;ミニ胡蝶蘭&lt;/h3&gt;</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>&lt;p&gt;コンパクトで可愛いサイズ。自宅用におすすめ。&lt;/p&gt;</p>
+<p class="p1">+<span class="Apple-converted-space">      </span>&lt;div class="price"&gt;¥5,000&lt;/div&gt;</p>
+<p class="p1">+<span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1">+<span class="Apple-converted-space">  </span>&lt;/section&gt;</p>
+<p class="p1">+<span class="Apple-converted-space">  </span>&lt;footer id="contact"&gt;</p>
+<p class="p1">+<span class="Apple-converted-space">    </span>&lt;p&gt;お問い合わせ: info@example.com&lt;/p&gt;</p>
+<p class="p1">+<span class="Apple-converted-space">  </span>&lt;/footer&gt;</p>
+<p class="p1">+&lt;/body&gt;</p>
+<p class="p1">+&lt;/html&gt;</p>
+<p class="p2"><span class="Apple-converted-space"> </span></p>
+<p class="p1">EOF</p>
+<p class="p1">)</p>
+</body>
+</html>
